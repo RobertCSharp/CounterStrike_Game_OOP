@@ -8,8 +8,6 @@ namespace CounterStrike_Game.Weapons
 {
     public class Grenade : Weapon
     {
-        public Grenade(string name, string skin, int damage, int price) : base(name, skin, damage, price)
-        {
-        }
+        public Grenade(string name, string skin, int damage, int price) : base(name, skin, damage, price) { }
     }
 }

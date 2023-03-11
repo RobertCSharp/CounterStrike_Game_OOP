@@ -8,8 +8,6 @@ namespace CounterStrike_Game.Weapons
 {
    public class SmallRifle : Weapon
     {
-        public SmallRifle(string name, string skin, int damage, int price) : base(name, skin, damage, price)
-        {
-        }
+        public SmallRifle(string name, string skin, int damage, int price) : base(name, skin, damage, price) { }
     }
 }
