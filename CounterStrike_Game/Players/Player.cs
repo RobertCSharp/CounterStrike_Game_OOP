@@ -10,8 +10,6 @@ namespace CounterStrike_Game.Players
 {
     public class Player
     {
-        // // transforma toate campurile in propretati automate si fa modificarile necesare, si in constructori.
-
         protected string UserName { get; set; }
         protected int Health { get; set; }
         protected Armour Armour { get; set; }

@@ -11,9 +11,6 @@ namespace CounterStrike_Game
 {
     public class Counter_Terrorist : Player
     {
-        public Counter_Terrorist(string userName, Armour armour, string uniformeColor) : base(userName, armour, uniformeColor)
-        {
-
-        }
+        public Counter_Terrorist(string userName, Armour armour, string uniformeColor) : base(userName, armour, uniformeColor) { }
     }
 }
